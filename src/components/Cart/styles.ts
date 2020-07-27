@@ -37,6 +37,12 @@ export const Panel = styled.div`
       background: ${shade(0.2, '#1F8FFF')};
     }
   }
+
+  @media (max-width: 800px) {
+    display: flex;
+    width: 100%;
+    height: auto;
+  }
 `;
 
 export const Content = styled.div<ContentProps>`
@@ -87,10 +93,4 @@ export const TotalCart = styled.div`
   span {
     margin-left: 5px;
   }
-`;
-
-export const CartEmpty = styled.div`
-  display: flex;
-  justify-content: center;
-  align-items: center;
 `;

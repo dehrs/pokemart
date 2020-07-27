@@ -7,7 +7,7 @@ export const CardContent = styled.div`
   margin: 10px 5px 5px 5px;
   background: #ffffff;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  width: auto;
+  padding: 10px;
 
   img {
     padding: 10px;
@@ -18,10 +18,10 @@ export const CardContent = styled.div`
   div {
     display: flex;
     flex-direction: column;
-    padding: 20px;
 
     p {
       font-size: 14px;
+      margin-bottom: 5px;
     }
 
     button {
@@ -36,7 +36,6 @@ export const CardContent = styled.div`
       border: 0;
       background: #629378;
       color: #f1faee;
-      margin: 10px 10px 10px 0;
       transition: background-color 0.2s;
 
       &:hover {

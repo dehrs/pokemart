@@ -57,8 +57,7 @@ const Carrinho: React.FC = () => {
                 alt="pokemon"
               />
               <span>{p.name}</span>
-              <span>
-                {p.quantity}x</span>
+              <span>{p.quantity}x</span>
               <span>{formatValue(p.price * p.quantity)}</span>
             </Products>
           ))}
